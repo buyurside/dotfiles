@@ -112,6 +112,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+[ -f $HOME/.fzf.bash ] && source $HOME/.fzf.bash
+
 alias l="ls -t --group-directories-first"
 alias la="ls -lahk --group-directories-first"
 alias ll="ls -lhk --group-directories-first"
