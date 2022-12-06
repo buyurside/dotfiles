@@ -8,13 +8,18 @@
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
-   
+
+include ./user_rules.conf
+#include ./plasma-capability.conf
 
 include ./xsettings.conf
 include ./workspaces.conf
-include ./user_rules.conf
 include ./windows.conf
 include ./assignments.conf
 include ./theme.conf
 include ./startup.conf
 include ./keys.conf
+
+
+set $mod Mod4
+
